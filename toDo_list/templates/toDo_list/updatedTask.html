@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update/Edit Task</title>
+  </head>
+  <style>
+    body {
+      background-image: url("https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_760/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.webp");
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+    
+    .text {
+      text-align: left;
+      position: absolute;
+      left: 36%;
+      top: 25%;
+      width: 10%;
+      padding: 50px;
+      font-size: 1.2em;
+    }
+    h3 {
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: xx-large;
+      color: aliceblue;
+    }
+    .bckground {
+      text-align: left;
+      position: absolute;
+      left: 25%;
+      top: 20%;
+      width: 50%;
+      height: 100%;
+      padding: 20px;
+      background-color: rgb(209, 190, 190);
+      filter: blur(10px);
+    }
+  </style>
+  <body>
+    <h3 class="active_heading">Update Tasks</h3>
+
+    <div class="bckground"></div>
+    <div class="text">
+      <form method="POST" action="">
+        {% csrf_token %} {{forms}}
+
+        <input
+          class="btn btn-sm btn-success"
+          type="submit"
+          value="Update"
+          name="Update"
+        />
+      </form>
+    </div>
+  </body>
+</html>
