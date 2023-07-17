@@ -1,6 +1,5 @@
 # To-Do-List-Assignment
 
-{% if False %}
 
 # Introduction
 
@@ -27,6 +26,9 @@ Template is written with django 1.11 and python 3 in mind.
 # Usage
 
 To use this template to start your own project:
+
+# Video
+
 
 ### Existing virtualenv
 
