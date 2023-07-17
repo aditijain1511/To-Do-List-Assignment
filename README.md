@@ -29,7 +29,7 @@ To use this template to start your own project:
 
 # Video
 
-https://github.com/aditijain1511/To-Do-List-Assignment/assets/68889852/12546fd8-a63f-4dc6-b7a1-324d6ac44486
+https://github.com/aditijain1511/To-Do-List-Assignment/assets/68889852/50b87d86-c027-4419-bf46-b962e2f971bb
 
 
 ### Existing virtualenv
